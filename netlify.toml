@@ -1,0 +1,21 @@
+[build]
+  base = "frontend"
+  publish = "dist"
+  command = "npm run build:netlify"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NPM_FLAGS = "--legacy-peer-deps"
+  # ⚠️ REEMPLAZA con la URL de tu backend en Railway/Render
+  VITE_API_URL = "https://TU_BACKEND.up.railway.app/api"
+
+[[redirects]]
+  from = "/api/*"
+  # ⚠️ REEMPLAZA con la URL de tu backend en Railway/Render
+  to = "https://TU_BACKEND.up.railway.app/api/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

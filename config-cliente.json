@@ -1,0 +1,13 @@
+{
+  "clientName": "NOMBRE_DEL_CLIENTE",
+  "domain": "dominio-del-cliente.com",
+  "databaseUrl": "postgresql://usuario:password@host:puerto/database",
+  "admin": {
+    "username": "admin",
+    "password": "password123",
+    "email": "admin@cliente.com",
+    "name": "Administrador Principal"
+  },
+  "instructions": "Completa este archivo con los datos del cliente y luego ejecuta: node scripts/apply-client-config.js"
+}
+

@@ -1,0 +1,31 @@
+{
+  "id": "main_settings",
+  "siteName": "Mi Plataforma de Rifas",
+  "appearance": {
+    "siteName": "Mi Plataforma de Rifas",
+    "colors": {
+      "backgroundPrimary": "#1a1a1a",
+      "backgroundSecondary": "#2d2d2d",
+      "accent": "#ff6b6b",
+      "action": "#4ecdc4"
+    },
+    "logo": "",
+    "favicon": ""
+  },
+  "contactInfo": {
+    "whatsapp": "",
+    "email": "",
+    "phone": "",
+    "address": ""
+  },
+  "socialLinks": {
+    "facebookUrl": "",
+    "instagramUrl": "",
+    "tiktokUrl": "",
+    "youtubeUrl": ""
+  },
+  "paymentAccounts": [],
+  "faqs": [],
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "updatedAt": "2024-01-01T00:00:00.000Z"
+}
