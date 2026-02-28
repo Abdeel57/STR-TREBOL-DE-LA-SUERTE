@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Build outputs
+frontend/dist/
+backend/dist/
+
+# Archivos de entorno (se configuran como variables en Railway)
+backend/.env
+backend/.env.*
+.env
+.env.*
+
+# Frontend (no se necesita para el backend)
+frontend/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Git
+.git/
+.gitignore
+
+# Documentación y scripts de utilidad
+*.md
+scripts/
+MIGRAR-BASE-DE-DATOS.sql
+CREAR-TABLAS-FALTANTES-NEO.sql
+
+# IDE
+.cursor/
+.vscode/
