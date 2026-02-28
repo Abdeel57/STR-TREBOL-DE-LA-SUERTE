@@ -48,8 +48,9 @@ RUN npx prisma generate
 # Copiar build compilado
 COPY --from=builder /app/dist ./dist
 
-# Exponer puerto
-EXPOSE 3000
+# Railway espera la app en puerto 8080
+ENV PORT=8080
+EXPOSE 8080
 
 # Iniciar aplicación
 CMD ["node", "dist/main.js"]

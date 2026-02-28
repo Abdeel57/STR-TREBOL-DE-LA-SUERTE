@@ -110,8 +110,9 @@ async function bootstrap() {
   console.log(`🚀 Backend starting...`);
   console.log(`📡 Environment: ${nodeEnv}`);
   console.log(`🌐 Port: ${port}`);
-  console.log(`🔗 API Base: http://localhost:${port}/api`);
+  console.log(`🔗 API Base: http://0.0.0.0:${port}/api`);
 
-  await app.listen(port);
+  // Escuchar en 0.0.0.0 para que Railway pueda alcanzar el contenedor
+  await app.listen(port, '0.0.0.0');
 }
 bootstrap();
